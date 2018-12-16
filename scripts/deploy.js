@@ -1,17 +1,10 @@
 /* eslint-env node no-alert */
 "use strict";
 const path = require('path');
-const fs = require('fs');
-const ncp = require('ncp').ncp;
-const nrc = require('node-run-cmd');
 const shell = require('shelljs');
-const bluebird = require('bluebird');
-const ncpPromise = bluebird.promisify(ncp);
 
 const SOURCE = path.join(__dirname, '..', 'dist');
 const DESTINATION = path.join(__dirname, '..', 'temp');
-
-ncp.limit = 16;
 
 if(require.main == module) {
     console.log("Deployment Started");

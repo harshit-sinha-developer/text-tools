@@ -1,4 +1,4 @@
-# BookTheCamp Seller Panel
+# Text Tools
 
 ## Pre-requisites
 1. Node.js - Download the latest version from https://nodejs.org/en/
@@ -13,3 +13,4 @@
 ## Run Locally
 1. Change the localhost server port to desired in webpack.config.js devServer property (default 8080)
 2. Run command - ```npm run dev```
+3. Deploy Command - ```npm run deploy-heroku```

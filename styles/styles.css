@@ -1,0 +1,37 @@
+.SideBar__app_sidebar___3LmUj {
+  height: 100vh;
+  border-right: 1px solid #d3d3d3;
+  padding-top: 9px;
+  font-size: 1.2rem;
+}
+.SideBar__app_sidebar___3LmUj ul {
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+}
+.SideBar__app_sidebar___3LmUj ul li {
+  border-left: 2px solid transparent;
+}
+.SideBar__app_sidebar___3LmUj ul li:hover {
+  border-left: 2px solid #f46e42;
+}
+.SideBar__app_sidebar___3LmUj ul:first-child a {
+  border-top-width: 0px;
+}
+.SideBar__app_sidebar___3LmUj ul:last-child a {
+  border-bottom-width: 0px;
+}
+.SideBar__app_sidebar___3LmUj .SideBar__nav-item___3jrl1 {
+  padding: 5px;
+}
+.JsonTable__json_table___2JcBz {
+  overflow: scroll;
+  font-size: 0.75rem;
+}
+.Header__app_header___2ajam .Header__app_nav___2vHhi {
+  border-bottom: 1px solid #d3d3d3;
+}
+.Header__app_header___2ajam .Header__app_nav___2vHhi .Header__app_title___2J9vH {
+  font-size: 1.1rem;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZXMvc3R5bGVzLmNzcyIsInNvdXJjZVJvb3QiOiIifQ==*/

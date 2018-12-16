@@ -1,0 +1,73 @@
+{
+  "name": "btc-seller-panel",
+  "version": "0.0.1",
+  "description": "BookTheCamp Seller Panel",
+  "main": "index.js",
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "axios": "^0.18.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-add-module-exports": "^0.1.2",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-plugin-transform-class-properties": "^6.3.13",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "bluebird": "^3.5.3",
+    "bootstrap": "^4.1.1",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "jquery": "^3.3.1",
+    "jsoneditor": "^5.26.3",
+    "popper.js": "^1.14.3",
+    "pubsub-js": "^1.6.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "style-loader": "^0.21.0",
+    "webpack": "4.8.3",
+    "webpack-cli": "2.1.3",
+    "webpack-combine-loaders": "2.0.3",
+    "webpack-dev-server": "3.1.4",
+    "webpack-sources": "1.1.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^0.28.11",
+    "eslint": "^5.10.0",
+    "eslint-plugin-mocha": "5.2.0",
+    "eslint-plugin-react": "7.11.1",
+    "html-webpack-externals-plugin": "^3.8.0",
+    "html-webpack-plugin": "3.2.0",
+    "less": "3.0.4",
+    "less-loader": "4.1.0",
+    "ncp": "^2.0.0",
+    "node-run-cmd": "^1.0.1",
+    "shelljs": "^0.8.3",
+    "style-loader": "0.21.0",
+    "webpack-merge": "^4.1.5"
+  },
+  "scripts": {
+    "dev": "./node_modules/webpack/bin/webpack.js --watch & ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot",
+    "production": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js",
+    "deploy-heroku": "node ./scripts/deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/bookthecamp/btc-seller-panel.git"
+  },
+  "keywords": [
+    "bookthecamp"
+  ],
+  "author": "bookthecamp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/bookthecamp/btc-seller-panel/issues"
+  },
+  "homepage": "https://gitlab.com/bookthecamp/btc-seller-panel#README"
+}

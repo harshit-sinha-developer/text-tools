@@ -1,0 +1,2 @@
+ErrorDocument 404 https://text-tools.herokuapp.com
+ErrorDocument 500 https://text-tools.herokuapp.com
